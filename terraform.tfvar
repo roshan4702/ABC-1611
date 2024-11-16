@@ -1,0 +1,13 @@
+location         = "East US" 
+rg_name          = "roshan_rg_exam"
+vnet_name_1      = "Rvnet1"  
+vnet_name_2      = "Rvnet2"  
+address_space_1  = ["10.0.5.0/16"] 
+address_space_2  = ["10.15.0.0/16"]  
+admin_username   = "azureuser"  
+admin_password   = "Roshanzameer@10"  
+
+
+vm_size           = "Standard_B2s"  
+
+
