@@ -21,7 +21,15 @@ variable "vnet_name_2" {
   type        = string
   default     = "Rvnet2"
 }
+variable "public_ip" {
+  description = "Public IP for VM"
+  type        = string
+}
 
+variable "private_ip" {
+  description = "Private IP for VM"
+  type        = string
+}
 variable "address_space_1" {
   description = "The address space for the first virtual network (vnet1)."
   type        = list(string)
